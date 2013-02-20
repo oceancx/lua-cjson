@@ -1,0 +1,47 @@
+type = "x86"
+arch = "Windows"
+author = "Mark Pulford"
+depends = {
+[[lua ~>5.1]],
+}
+
+desc = "Lua CJSON provides fast JSON parsing and encoding support for Lua."
+version = "1.0.3"
+maintainer = "Félix A.A."
+files = {
+Runtime = {
+[[lib\lua\cjson.dll]],
+}
+,
+Data = {
+[[share\lua-cjson\README]],
+[[share\lua-cjson\NEWS]],
+[[share\lua-cjson\performance.txt]],
+[[share\lua-cjson\rfc4627.txt]],
+}
+,
+Test = {
+[[share\lua-cjson\test\\bench.lua]],
+[[share\lua-cjson\test\\common.lua]],
+[[share\lua-cjson\test\\decode.lua]],
+[[share\lua-cjson\test\\encode.lua]],
+[[share\lua-cjson\test\\example1.json]],
+[[share\lua-cjson\test\\example2.json]],
+[[share\lua-cjson\test\\example3.json]],
+[[share\lua-cjson\test\\example4.json]],
+[[share\lua-cjson\test\\example5.json]],
+[[share\lua-cjson\test\\genutf8.pl]],
+[[share\lua-cjson\test\\numbers.json]],
+[[share\lua-cjson\test\\octets-escaped.dat]],
+[[share\lua-cjson\test\\README]],
+[[share\lua-cjson\test\\rfc-example1.json]],
+[[share\lua-cjson\test\\rfc-example2.json]],
+[[share\lua-cjson\test\\test.lua]],
+[[share\lua-cjson\test\\types.json]],
+}
+,
+}
+
+license = "MIT"
+name = "lua-cjson"
+url = "http://www.kyne.com.au/~mark/software/lua-cjson.php"
