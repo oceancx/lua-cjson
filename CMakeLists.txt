@@ -1,5 +1,5 @@
-cmake_minimum_required ( VERSION 3.5 )
-project ( lua-cjson VERSION 1.0.3 LANGUAGES C )
+cmake_minimum_required(VERSION 3.5)
+project(lua-cjson VERSION 1.0.3 LANGUAGES C)
 
 if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
   set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR}/dist CACHE PATH "..." FORCE)
